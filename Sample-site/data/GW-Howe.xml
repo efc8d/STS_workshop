@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>From George Washington to General William Howe, 6 October 1777</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher source="print">University of Virginia Press</publisher>
+                <publisher source="digital">Rotunda</publisher>
+                <pubPlace>University of Virginia, Charlottesville, Virginia</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>The Papers of George Washington, Revolutionary War Series, vol. 11, 19 August
+                    1777 – 25 October 1777, ed. Philander D. Chase. Charlottesville: University
+                    Press of Virginia, 2001, p. 410.</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="doc-head">
+                <docDate>6 October 1777</docDate>
+                <docAuthor>George Washington</docAuthor>
+            </div1>
+            <div1 type="doc-body">
+                <head>To General William Howe</head>
+                <dateline><supplied>[<placeName>Perkiomen, Pa.</placeName>]</supplied> Octr 6. 1777</dateline>
+                <span n="text"><persName>General Washington’s</persName> compliments to <persName>General Howe</persName>. He does himself the
+                    pleasure to return him a dog, which accidentally fell into his hands, and by the
+                    inscription on the Collar appears to belong to General Howe.</span>
+            </div1>
+            <div1 type="doc-notes">
+                <div2 type="source-line">
+                    <p>Df, in Alexander Hamilton’s writing, DLC:GW; Varick transcript, DLC:GW.</p>
+                </div2>
+                <div2 type="fn">
+                    <p n="1">On the draft manuscript Hamilton first wrote “Sir Wm.” He then struck
+                        out those words and wrote “General” above the line.</p>
+                    <p n="2">On the draft manuscript Hamilton wrote and struck out “his Excellency”
+                        and “Sir William” before writing “General Howe.”</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
