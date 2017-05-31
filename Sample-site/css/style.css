@@ -1,0 +1,12 @@
+tei-title {
+    color: #2f3f52;
+}
+
+tei-supplied, tei-persname {
+    color: #4ea248;
+}
+
+tei-div2[type=fn]> tei-p {
+    font-style: italic;
+    font-size: 0.6em;
+}
